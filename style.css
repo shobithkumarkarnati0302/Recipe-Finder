@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&family=Londrina+Sketch&display=swap');
+
+body { 
+    text-align: center; 
+    background-color: #fff6da7e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 { 
+    font-family: 'Joti One', cursive;
+    font-size: 3em;
+    color: #A94A4A;
+    letter-spacing: 2px;
+}
+.recipe-container { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.recipe-card { 
+    width: 250px; 
+    margin: 10px; 
+    padding: 10px; 
+    border: 1px solid #00000073; 
+    border-radius: 10px; 
+    background-color: #f4d7934a;
+}
+.recipe-card img {
+     width: 95%; 
+     border-radius: 10px; 
+     margin-top: 10px;
+}
+.recipe-card h4 { 
+    font-family: 'Joti One', cursive; 
+    color: #000000; 
+    margin-top: 25px;
+}
+.recipe-card a{
+    color: #000000;
+    text-decoration:underline;
+    font-size: 12px;
+}
+#ingredientInput{
+    height: 30px;
+    width: 200px;
+    text-align: left;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+#ingredientButton {
+    height: 38px;
+    width: 100px;
+    text-align: center;
+    background-color: #71b82f;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 300;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#ingredientButton:hover {
+    background-color: #5a9625;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
